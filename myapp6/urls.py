@@ -10,3 +10,4 @@ urlpatterns = [
 
 
 ]
+#git remote add origin https://github.com/dippersport/Sabir.git
