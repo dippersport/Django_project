@@ -25,3 +25,6 @@ urlpatterns = [
 
 ]
 
+#git commit -m "Initial commit"
+#git remote add origin https://github.com/dippersport/Django_project.
+#git push -u origin master

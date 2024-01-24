@@ -96,15 +96,14 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        
         
 
 'ENGINE': 'django.db.backends.mysql',
-'NAME': '<jeyhun>$<jeyhun>',
-'USER': '<jeyhun>',
+'NAME': 'Jeyhun$default',
+'USER': 'jeyhun',
 'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-'HOST': '<your_mysql_hostname>',
+'HOST': 'jeyhun.mysql.pythonanywhere-services.com',
 'OPTIONS': {
 'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
 'charset': 'utf8mb4',
